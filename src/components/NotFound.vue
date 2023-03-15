@@ -1,10 +1,13 @@
 <template>
-    <div class= "image">
-        <img src="@/assets/404-V2.png" alt="">
-    </div>
-    <ul>
-        <router-link to="/">Go to main page</router-link>
-    </ul>
+    <section>
+
+        <div class= "image">
+            <img src="@/assets/404-V2.png" alt="">
+        </div>
+        <ul>
+            <router-link to="/">Go to main page</router-link>
+        </ul>
+    </section>
 </template>
 
 <script>
@@ -14,12 +17,15 @@ export default{
 </script>
 
 <style scoped>
-    .image{
+    section{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        /* width: 350px; */
         justify-content: center;
+    }
+    .image{
+        width: 300px;
+        height: 300px;
     }
     ul{
         display: flex;
