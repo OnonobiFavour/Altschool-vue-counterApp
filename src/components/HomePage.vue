@@ -109,7 +109,7 @@ h1{
     color: white;
 }
 .a{
-    color: #fff;
+    color: rgb(193, 46, 75);
     text-decoration: none;
     font-weight: bolder;
     padding-top: 8px;
@@ -117,13 +117,13 @@ h1{
     text-align: center;
     height: 40px;
     font-size: 20px;
-    background: inherit;
+    background: #fff;
     border: 1px solid white;
     border-radius: 20px;
 }
 .a:hover{
     color: rgb(228, 70, 97);
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.605);
     transition: 0.4s;
 }
 @keyframes home-textBox{
