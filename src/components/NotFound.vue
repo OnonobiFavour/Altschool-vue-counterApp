@@ -18,14 +18,21 @@ export default{
 
 <style scoped>
     section{
+        width: 100vw;
+        height: 100vh;
         display: flex;
         align-items: center;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
     }
     .image{
-        width: 300px;
+        max-width: 500px;
         height: 300px;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
     }
     ul{
         display: flex;
