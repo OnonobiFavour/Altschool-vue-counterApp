@@ -1,5 +1,7 @@
 <template>
-    <h2>404-Page not found</h2>
+    <div class= "image">
+        <img src="@/assets/404-V2.png" alt="">
+    </div>
     <ul>
         <router-link to="/">Go to main page</router-link>
     </ul>
@@ -12,14 +14,17 @@ export default{
 </script>
 
 <style scoped>
-    h2{
-        padding-top: 5%;
-        text-align: center;
-        font-size: 30px;
+    .image{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        /* width: 350px; */
+        justify-content: center;
     }
     ul{
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 20px;
     }
 </style>
