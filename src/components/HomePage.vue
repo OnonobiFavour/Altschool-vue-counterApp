@@ -59,13 +59,13 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #ffff;
-  font-size: 2.2rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -161,8 +161,7 @@ h2{
 }
 .text_feature p{
     text-align: center;
-    /* width: 300px; */
-    background: red;
+    font-size: 15px;
 }
 .github{
     background-color: rgb(228, 70, 97);
