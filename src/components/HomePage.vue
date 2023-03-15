@@ -65,7 +65,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #ffff;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -144,7 +144,6 @@ h1{
     flex-direction: column;
 }
 .text__features{
-    font-size: 20px;
     max-width: 550px;
     padding: 0.6rem;
     display: flex;
