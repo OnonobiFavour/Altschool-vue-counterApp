@@ -64,7 +64,7 @@ input[type = 'number']{
   padding-left: 0.3rem;
   margin: 1rem 0;
   font-size: 25px;
-  max-width: 350px;
+  max-width: 330px;
   height: 60px;
   border: none;
   border-radius: 1rem;
