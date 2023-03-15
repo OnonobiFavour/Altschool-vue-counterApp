@@ -59,7 +59,7 @@ nav ul {
 
 nav ul li {
   margin: 0 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arvo;
 }
 
 nav ul li a {
