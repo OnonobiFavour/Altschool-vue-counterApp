@@ -28,7 +28,7 @@ export default{
     }
     .image{
         max-width: 500px;
-        height: 300px;
+        height: 400px;
     }
     .image img{
         width: 100%;
